@@ -5,9 +5,6 @@ import { fetchCountries } from './js/fetchCountries';
 
 const DEBOUNCE_DELAY = 300;
 
-// document.body.style.background = '#ece5da';
-
-// document.body.style.background = 'url(../images/1) center no-repeat);';
 
 
 const searchEl = document.querySelector('#search-box');
