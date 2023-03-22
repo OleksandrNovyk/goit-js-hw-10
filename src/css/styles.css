@@ -17,4 +17,5 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 8px;
 }
