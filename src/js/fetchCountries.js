@@ -4,6 +4,8 @@ export const fetchCountries = name => {
   
     return fetch(`${BASE_URL}${name}?${properties}`).then(response => {
       console.log(response);
+      console.log({name});
+
       if (!response.ok) {
         throw new Error(response.status);
       }
