@@ -61,7 +61,7 @@ return data
 const createInfoMarkup = data => {
 return data.map(
     ({ name, capital, population, flags, languages }) =>
-`<img src="${flags.png}" alt="${name.official}" width="580" height="300">
+`<img src="${flags.png}" alt="${name.official}" width="480" height="300">
 <h1>${name.official}</h1>
 <p>Capital: ${capital}</p>
 <p>Population: ${population}</p>
